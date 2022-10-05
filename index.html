@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Block Breaker</title>
+		<style>
+			/* * {
+				margin: 0;
+				padding: 0;
+			} */
+			body {
+				background: grey;
+				/* width: 100%;
+        height: 100%; */
+			}
+		</style>
+	</head>
+	<body>
+		<canvas id="gameCanvas" width="800" height="600"></canvas>
+		<audio id="beeep">
+			<source src="assets/sounds/ping_pong_8bit_beeep.ogg" type="audio/ogg" />
+		</audio>
+		<audio id="peeeeeep">
+			<source
+				src="assets/sounds/ping_pong_8bit_peeeeeep.ogg"
+				type="audio/ogg"
+			/>
+		</audio>
+		<audio id="plop">
+			<source src="assets/sounds/ping_pong_8bit_plop.ogg" type="audio/ogg" />
+		</audio>
+		<audio id="tune1">
+			<source src="assets/music/tune1.ogg" type="audio/ogg" />
+		</audio>
+		<audio id="tune2">
+			<source src="assets/music/tune2.ogg" type="audio/ogg" />
+		</audio>
+		<script type="module" src="script.js"></script>
+	</body>
+</html>
