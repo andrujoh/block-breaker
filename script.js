@@ -69,10 +69,10 @@ window.onload = () => {
 		// paddleY = mouseY;
 
 		// cheat
-		ballX = mouseX;
-		ballY = mouseY;
-		ballSpeedX = 4;
-		ballSpeedY = -4;
+		// ballX = mouseX;
+		// ballY = mouseY;
+		// ballSpeedX = 4;
+		// ballSpeedY = -4;
 	}
 
 	function updateAll() {
